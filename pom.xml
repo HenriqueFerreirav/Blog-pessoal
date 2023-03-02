@@ -8,11 +8,11 @@
 		<version>2.7.8</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.stellarGameStore</groupId>
-	<artifactId>stellarGameStore</artifactId>
+	<groupId>com.powergreen</groupId>
+	<artifactId>powergreen</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>stellarGameStore</name>
-	<description>Projeto CRUD JAVA SpringBoot criado no bootcamp Generation e Zé Delivery turma 59 - By Wagner Moreira</description>
+	<name>PowerGreen</name>
+	<description>Aplicação Full-Stack,Web, Mobile &amp; E-commerce</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -36,14 +36,18 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -59,6 +63,11 @@
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.9</version>
 		</dependency>
 	</dependencies>
 	<build>

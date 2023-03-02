@@ -1,12 +1,13 @@
-package org.generation.blogpessoal.service;
+package com.stellarGameStore.service;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
 
+import com.stellarGameStore.model.Usuario;
+import com.stellarGameStore.model.UsuarioLogin;
+import com.stellarGameStore.repository.UsuarioRepository;
+
 import org.apache.commons.codec.binary.Base64;
-import org.generation.blogpessoal.model.Usuario;
-import org.generation.blogpessoal.model.UsuarioLogin;
-import org.generation.blogpessoal.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -96,5 +97,4 @@ public class UsuarioService {
         return "Basic " + new String(tokenBase64);
 
     }
-
 }

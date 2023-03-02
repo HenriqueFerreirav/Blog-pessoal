@@ -1,14 +1,15 @@
-package org.generation.blogpessoal.controller;
+package com.stellarGameStore.controller;
 
 import java.util.List;
 import java.util.Optional;
 
 import javax.validation.Valid;
 
-import org.generation.blogpessoal.model.Usuario;
-import org.generation.blogpessoal.model.UsuarioLogin;
-import org.generation.blogpessoal.repository.UsuarioRepository;
-import org.generation.blogpessoal.service.UsuarioService;
+import com.stellarGameStore.model.Usuario;
+import com.stellarGameStore.model.UsuarioLogin;
+import com.stellarGameStore.repository.UsuarioRepository;
+import com.stellarGameStore.service.UsuarioService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

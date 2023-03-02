@@ -1,10 +1,10 @@
-package org.generation.blogpessoal;
+package com.stellarGameStore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BlogPessoalApplicationTests {
+class StellarGameStoreApplicationTests {
 
 	@Test
 	void contextLoads() {

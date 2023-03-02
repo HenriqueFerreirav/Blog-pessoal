@@ -1,13 +1,13 @@
-package org.generation.blogpessoal;
+package com.stellarGameStore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BlogPessoalApplication {
+public class StellarGameStoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlogPessoalApplication.class, args);
+		SpringApplication.run(StellarGameStoreApplication.class, args);
 	}
 
 }
